@@ -4,7 +4,7 @@ A macOS/iOS Shortcut for capturing voice memos with automatic transcription and 
 
 ## Overview
 
-Utter Something streamlines voice note capture by recording audio, transcribing it to text, and automatically naming the transcription file based on its content. This eliminates manual file naming and creates a self-organizing voice note archive.
+Utter Something streamlines voice note capture by recording audio, transcribing it to text, and automatically naming the transcription file based on its content.
 
 ## Requirements
 
@@ -19,12 +19,6 @@ Utter Something streamlines voice note capture by recording audio, transcribing 
 3. Review the shortcut actions when prompted.
 4. Click **Add Shortcut** to install.
 5. Grant microphone permissions when first running the shortcut.
-
-### Optional: Add to Menu Bar or Dock
-
-- Open Shortcuts app
-- Right-click on "Utter Something"
-- Select **Add to Dock** or enable **Pin in Menu Bar** under Shortcut Details
 
 ## Usage
 
@@ -56,7 +50,7 @@ All files save to the Desktop with the following structure:
 
 ### File Naming
 
-- **Audio files**: Named with the current date plus "Recording" (e.g., `2026-02-01_Recording.m4a`)
+- **Audio files**: Named with the current date and time plus "Recording" (e.g., `2026-02-01_12:00:00_Recording.m4a`)
 - **Transcription files**: Named with an AI-generated 2-3 word topic based on content (e.g., `Project Update.txt`)
 
 ## Workflow Logic
@@ -100,7 +94,3 @@ The shortcut includes configurable parameters that can be modified by editing th
 - Transcription accuracy depends on audio clarity and speech recognition capabilities
 - AI topic generation requires internet connectivity for Private Cloud Compute
 - File naming conflicts may occur if the same topic is generated for multiple recordings (the shortcut does not overwrite by default)
-
-## License
-
-This shortcut is provided as-is for personal use.
